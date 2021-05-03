@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirPort.Common\AirPort.Common.csproj" />
+    <ProjectReference Include="..\Airport.Dal\Airport.Dal.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientServices\Implementations\" />
+  </ItemGroup>
+
+</Project>
